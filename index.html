@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do Liste</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Komika+Axis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center-container">
+      <h1>My Todos</h1>
+
+      <!-- Eingabebereich für neue Aufgaben -->
+      <div class="todo-input">
+        <div class="task-item">
+          <label for="todo-title">Title:</label>
+          <input
+            type="text"
+            id="todo-title"
+            placeholder="What's the title of your To Do?"
+          />
+        </div>
+
+        <div class="task-item">
+          <label for="todo-description">Description:</label>
+          <input
+            type="text"
+            id="todo-description"
+            placeholder="Describe your activity.."
+          />
+        </div>
+
+        <button id="add-todo">Add</button>
+      </div>
+
+      <!-- Tabs für To Do und Completed Aufgaben -->
+      <div class="todo-tabs">
+        <button class="tab active" onclick="showTab('to-do')">To Do</button>
+        <button class="tab" onclick="showTab('completed')">Completed</button>
+      </div>
+
+      <!-- Liste der To-Do-Aufgaben -->
+      <ul id="to-do-list" class="todo-list"></ul>
+      <!-- Liste der Completed-Aufgaben -->
+      <ul id="completed-list" class="todo-list" style="display: none"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
