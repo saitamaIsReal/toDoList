@@ -130,3 +130,386 @@ button#add-todo:hover {
   text-decoration: line-through;
   color: #bbb;
 }
+/* Mobile-Stile für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .center-container {
+    width: 90%; /* Breite der Seite auf kleinen Bildschirmen anpassen */
+    margin-top: 10px;
+  }
+
+  .todo-input {
+    flex-direction: column; /* Eingabefelder und Button untereinander anordnen */
+    gap: 10px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .task-item input {
+    width: 100%; /* Eingabefelder auf 100% der Breite setzen */
+  }
+
+  button#add-todo {
+    width: 100%; /* Button auf 100% der Breite setzen */
+  }
+}
+
+/* Mobile-Stile für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .center-container {
+    width: 90%; /* Breiter machen für mobile Ansicht */
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Größe der Überschrift auf Mobilgeräten noch etwas reduzieren */
+  }
+
+  .todo-input {
+    flex-direction: column; /* Eingabefelder und Button untereinander anordnen */
+    gap: 8px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .task-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Links ausrichten */
+    width: 100%;
+  }
+
+  .task-item label {
+    font-size: 0.9rem;
+    margin-bottom: 2px; /* Kleiner Abstand unter dem Label */
+    text-align: left;
+    width: 100%;
+  }
+
+  .task-item input {
+    width: 100%; /* Eingabefelder auf 100% der Breite setzen */
+    font-size: 1rem;
+    padding: 6px;
+  }
+
+  button#add-todo {
+    width: 100%; /* Button auf 100% der Breite setzen */
+    font-size: 1rem;
+    padding: 8px;
+    margin-top: 5px;
+  }
+
+  .todo-tabs {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .tab {
+    width: 45%;
+    padding: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .todo-list {
+    width: 100%;
+  }
+
+  .todo-item {
+    font-size: 1rem;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .todo-item .task-title,
+  .todo-item p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
+  }
+
+  .todo-item .task-actions {
+    margin-top: 8px;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+/* Mobile-Stile für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .center-container {
+    width: 90%; /* Breiter machen für mobile Ansicht */
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Größe der Überschrift auf Mobilgeräten noch etwas reduzieren */
+  }
+
+  .todo-input {
+    flex-direction: column; /* Eingabefelder und Button untereinander anordnen */
+    gap: 8px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .task-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Links ausrichten */
+    width: 100%;
+  }
+
+  .task-item label {
+    font-size: 0.9rem;
+    margin-bottom: 2px; /* Kleiner Abstand unter dem Label */
+    text-align: left;
+    width: 100%;
+  }
+
+  .task-item input {
+    width: 100%; /* Eingabefelder auf 100% der Breite setzen */
+    max-width: 300px; /* Maximale Breite der Eingabefelder */
+    font-size: 1rem;
+    padding: 6px;
+    box-sizing: border-box; /* Verhindert, dass Padding die Breite beeinflusst */
+  }
+
+  button#add-todo {
+    width: 100%; /* Button auf 100% der Breite setzen */
+    font-size: 1rem;
+    padding: 8px;
+    margin-top: 5px;
+    max-width: 300px; /* Maximale Breite für den Button */
+  }
+
+  .todo-tabs {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .tab {
+    width: 45%;
+    padding: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .todo-list {
+    width: 100%;
+  }
+
+  .todo-item {
+    font-size: 1rem;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .todo-item .task-title,
+  .todo-item p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
+  }
+
+  .todo-item .task-actions {
+    margin-top: 8px;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+/* Mobile-Stile für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .center-container {
+    width: 90%; /* Breiter machen für mobile Ansicht */
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Größe der Überschrift auf Mobilgeräten noch etwas reduzieren */
+  }
+
+  .todo-input {
+    flex-direction: column; /* Eingabefelder und Button untereinander anordnen */
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .task-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Links ausrichten */
+    width: 100%;
+  }
+
+  .task-item label {
+    font-size: 0.9rem;
+    margin-bottom: 2px; /* Kleiner Abstand unter dem Label */
+    text-align: left;
+    width: 100%;
+  }
+
+  .task-item input {
+    width: 100%; /* Eingabefelder auf 100% der Breite setzen */
+    max-width: 100%; /* Maximale Breite auf 100% beschränken */
+    font-size: 1rem;
+    padding: 6px;
+    box-sizing: border-box; /* Verhindert, dass Padding die Breite beeinflusst */
+  }
+
+  button#add-todo {
+    width: 100%; /* Button auf 100% der Breite setzen */
+    font-size: 1rem;
+    padding: 8px;
+    margin-top: 5px;
+  }
+
+  .todo-tabs {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between; /* Tabs gleichmäßig verteilen */
+    margin-top: 10px;
+    width: 100%; /* Tabs auf die volle Breite setzen */
+  }
+
+  .tab {
+    flex: 1; /* Tabs sollen gleiche Breite haben */
+    padding: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #444; /* Farbe des Hintergrunds */
+    border-radius: 4px;
+  }
+
+  .tab.active {
+    background-color: #28a745; /* Farbe des aktiven Tabs */
+  }
+
+  .todo-list {
+    width: 100%; /* Breite der Aufgabenliste anpassen */
+  }
+
+  .todo-item {
+    font-size: 1rem;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .todo-item .task-title,
+  .todo-item p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
+  }
+
+  .todo-item .task-actions {
+    margin-top: 8px;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+/* Mobile-Stile für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .center-container {
+    width: 90%; /* Breiter machen für mobile Ansicht */
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Größe der Überschrift auf Mobilgeräten noch etwas reduzieren */
+  }
+
+  .todo-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Zentriert die Elemente innerhalb des Containers */
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .task-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Links ausrichten */
+    width: 100%;
+  }
+
+  .task-item label {
+    font-size: 0.9rem;
+    margin-bottom: 2px; /* Kleiner Abstand unter dem Label */
+    text-align: left;
+    width: 100%;
+  }
+
+  .task-item input {
+    width: 100%; /* Eingabefelder auf 100% der Breite setzen */
+    max-width: 100%; /* Maximale Breite auf 100% beschränken */
+    font-size: 1rem;
+    padding: 6px;
+    box-sizing: border-box; /* Verhindert, dass Padding die Breite beeinflusst */
+  }
+
+  button#add-todo {
+    width: 100%; /* Button auf 100% der Breite setzen */
+    max-width: 300px; /* Maximale Breite für den Button */
+    font-size: 1rem;
+    padding: 8px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .todo-tabs {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between; /* Tabs gleichmäßig verteilen */
+    margin-top: 10px;
+    width: 100%; /* Tabs auf die volle Breite setzen */
+  }
+
+  .tab {
+    flex: 1; /* Tabs sollen gleiche Breite haben */
+    padding: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #444; /* Farbe des Hintergrunds */
+    border-radius: 4px;
+  }
+
+  .tab.active {
+    background-color: #28a745; /* Farbe des aktiven Tabs */
+  }
+
+  .todo-list {
+    width: 100%; /* Breite der Aufgabenliste anpassen */
+  }
+
+  .todo-item {
+    font-size: 1rem;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .todo-item .task-title,
+  .todo-item p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
+  }
+
+  .todo-item .task-actions {
+    margin-top: 8px;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
